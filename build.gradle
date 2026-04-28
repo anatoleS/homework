@@ -23,6 +23,7 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
     implementation project(':hw01-gradle')
+    implementation project(':hw04-collections')
 }
 
 shadowJar {
