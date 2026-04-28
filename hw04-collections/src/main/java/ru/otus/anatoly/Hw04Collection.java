@@ -1,11 +1,10 @@
 package ru.otus.anatoly;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
-public class Hw04_collection {
+public class Hw04Collection {
 
-    public static void example() {
+    public static void runHomeWork() {
 
         System.out.println("Demonstration replaceArrayElements method on array [a, b, c, d, e, f], and swap 2 and 5 elements:");
         String[] arr1 = new String[]{"a", "b", "c", "d", "e", "f"};
@@ -20,10 +19,9 @@ public class Hw04_collection {
         System.out.println("  " + list.getClass() + " " + list);
 
         System.out.println("Demonstration calculation words in array:");
-        List<String> listOfWords = Arrays.asList("one", "two", "three", "four", "five", "six", "seven", "eight", "nine");
-        String[] arrayOfWords = createWordArray(listOfWords, 20);
-        System.out.println("  Library of words: " + listOfWords);
-        System.out.println("  Result random array: " + Arrays.toString(arrayOfWords));
+        String[] arrayOfWords = {"one", "eight", "seven", "six", "three", "one", "four", "two", "three", "nine", "one",
+                "three", "one", "eight", "two", "five", "two", "five", "six", "three"};
+        System.out.println("  Result array: " + Arrays.toString(arrayOfWords));
 
         HashMap<String, Integer> map = new HashMap<>();
         Arrays.stream(arrayOfWords).forEach(word -> map.put(word, map.getOrDefault(word, 0) + 1));
@@ -33,23 +31,6 @@ public class Hw04_collection {
         System.out.println("  unique words list (use distinct): " + Arrays.stream(arrayOfWords).distinct().toList());
         System.out.println("  unique words list (use set): " + new HashSet<>(Arrays.asList(arrayOfWords)));
         System.out.println("  unique words list (use output keys of map): " + map.keySet());
-    }
-
-    /**
-     * Creates an array of words with random selection from the provided list.
-     * Words may repeat in the array.
-     *
-     * @param wordList list of words to select from
-     * @param size     the size of the array to create
-     * @return array of words with possible duplicates
-     */
-    private static String[] createWordArray(List<String> wordList, int size) {
-        String[] arrayOfWords = new String[size];
-        Random random = new Random();
-        for (int i = 0; i < arrayOfWords.length; i++) {
-            arrayOfWords[i] = wordList.get(random.nextInt(wordList.size()));
-        }
-        return arrayOfWords;
     }
 
     /**
@@ -93,7 +74,7 @@ public class Hw04_collection {
      */
     public static <T> ArrayList<T> toArrayList(T[] arr) {
         if (arr == null) {
-            return null;
+            return new ArrayList<>();
         }
         ArrayList<T> list = new ArrayList<>(arr.length);
         Collections.addAll(list, arr);
