@@ -27,12 +27,6 @@ public class TestRunner {
         
         try {
             Object testInstance;
-            try {
-                testInstance = testClass.getDeclaredConstructor().newInstance();
-            } catch (NoSuchMethodException e) {
-                System.out.println("Error: class " + testClass.getSimpleName() + " has no no-argument constructor");
-                return;
-            }
 
             // Find all methods with annotation
             List<Method> beforeMethods = findAnnotatedMethods(testClass, Before.class);
@@ -44,6 +38,12 @@ public class TestRunner {
 
             // Run each test method with Before -> Test -> After cycle
             for (Method testMethod : testMethods) {
+                try {
+                    testInstance = testClass.getDeclaredConstructor().newInstance();
+                } catch (NoSuchMethodException e) {
+                    System.out.println("Error: class " + testClass.getSimpleName() + " has no no-argument constructor");
+                    return;
+                }
                 runTestMethod(testInstance, beforeMethods, afterMethods, testMethod);
             }
 
