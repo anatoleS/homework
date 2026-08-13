@@ -62,29 +62,39 @@ public class TestRunner {
     private static void runTestMethod(Object testInstance, List<Method> beforeMethods, List<Method> afterMethods, Method testMethod) {
         totalTests++;
         
+        boolean beforeFailed = false;
+
         // @Before methods
         for (Method beforeMethod : beforeMethods) {
             try {
                 makeAccessible(beforeMethod);
                 beforeMethod.invoke(testInstance);
             } catch (Exception e) {
-                System.out.println("  [BEFORE] " + testMethod.getName() + " - FAILED: " + e.getMessage());
+
+                System.out.println(RED + "[BEFORE FAILED] " + testMethod.getName() + ": " + e.getMessage());
+                System.out.println(RED + "❌ [FAIL] " + testMethod.getName() + " - BEFORE FAILED" + RESET);
+                beforeFailed = true;
+                failedTests++;
+                break;
             }
         }
-
-        // @Test method
-        try {
-            makeAccessible(testMethod);
-            testMethod.invoke(testInstance);
-            passedTests++;
-            System.out.println(GREEN + "✅ [PASS] " + testMethod.getName() + RESET);
-        } catch (InvocationTargetException e) {
-            failedTests++;
-            Throwable cause = e.getCause();
-            System.out.println(RED + "❌ [FAIL] " + testMethod.getName() + " - " + cause.getClass().getSimpleName() + ": " + cause.getMessage() + RESET);
-        } catch (Exception e) {
-            failedTests++;
-            System.out.println(RED + "❌ [FAIL] " + testMethod.getName() + " - " + e.getClass().getSimpleName() + ": " + e.getMessage() + RESET);
+        
+        // Если Before упал — не запускаем Test, но засчитываем как failed
+        if (!beforeFailed) {
+            // @Test method
+            try {
+                makeAccessible(testMethod);
+                testMethod.invoke(testInstance);
+                passedTests++;
+                System.out.println(GREEN + "✅ [PASS] " + testMethod.getName() + RESET);
+            } catch (InvocationTargetException e) {
+                failedTests++;
+                Throwable cause = e.getCause();
+                System.out.println(RED + "❌ [FAIL] " + testMethod.getName() + " - " + cause.getClass().getSimpleName() + ": " + cause.getMessage() + RESET);
+            } catch (Exception e) {
+                failedTests++;
+                System.out.println(RED + "❌ [FAIL] " + testMethod.getName() + " - " + e.getClass().getSimpleName() + ": " + e.getMessage() + RESET);
+            }
         }
 
         // @After methods
