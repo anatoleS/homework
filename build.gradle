@@ -24,6 +24,10 @@ dependencies {
 
     implementation project(':hw01-gradle')
     implementation project(':hw04-collections')
+    implementation project(':hw06-reflection')
+    
+    compileOnly 'org.projectlombok:lombok:1.18.46'
+    annotationProcessor 'org.projectlombok:lombok:1.18.46'
 }
 
 shadowJar {
