@@ -1,7 +1,9 @@
 package ru.otus.anatoly;
 
+import ru.calculator.CalcDemo;
+
 public class Main {
     static void main(String[] args) {
-        Hw06Reflection.runHomeWork();
+        CalcDemo.main(args);
     }
 }
