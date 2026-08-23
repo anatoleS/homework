@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id 'application'
     id 'com.gradleup.shadow' version '9.4.0'
+    id 'com.bmuschko.docker-remote-api' version '10.0.0'
 }
 
 java {
@@ -25,7 +26,8 @@ dependencies {
     implementation project(':hw01-gradle')
     implementation project(':hw04-collections')
     implementation project(':hw06-reflection')
-    
+    implementation project(':hw08-gc')
+
     compileOnly 'org.projectlombok:lombok:1.18.46'
     annotationProcessor 'org.projectlombok:lombok:1.18.46'
 }
@@ -33,12 +35,20 @@ dependencies {
 shadowJar {
     archiveClassifier.set('fat')
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
-    minimize {
-        exclude 'META-INF/*.SF', 'META-INF/*.DSA', 'META-INF/*.RSA'
-    }
     manifest {
         attributes 'Main-Class': 'ru.otus.anatoly.Main'
     }
+}
+
+// Сборка Docker-образа (jar + sweep.sh) через Docker API, без CLI.
+// Запуск: gradle dockerBuildImage
+import com.bmuschko.gradle.docker.tasks.image.DockerBuildImage
+
+tasks.register('dockerBuildImage', DockerBuildImage) {
+    inputDir.set(file('.'))
+    dockerFile.set(file('hw08-gc/Dockerfile'))
+    images.add("otus-hw08-gc:latest")
+    dependsOn shadowJar
 }
 
 tasks.named('jar') {
