@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+group = 'ru.otus.anatoly'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.ow2.asm:asm:9.10.1'
+    implementation 'org.ow2.asm:asm-commons:9.10.1'
+}
+
+jar {
+    archiveClassifier = 'agent'
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    manifest {
+        attributes(
+            'Premain-Class': 'ru.otus.anatoly.agent.LogAgent',
+            'Agent-Class': 'ru.otus.anatoly.agent.LogAgent',
+            'Can-Redefine-Classes': 'true',
+            'Can-Retransform-Classes': 'true'
+        )
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+

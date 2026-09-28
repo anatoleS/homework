@@ -11,6 +11,10 @@ java {
     }
 }
 
+application {
+    mainClass = 'ru.otus.anatoly.Main'
+}
+
 group = 'ru.otus.anatoly'
 version = '1.0-SNAPSHOT'
 
@@ -27,6 +31,7 @@ dependencies {
     implementation project(':hw04-collections')
     implementation project(':hw06-reflection')
     implementation project(':hw08-gc')
+    implementation project(':hw10-bytecode')
 
     compileOnly 'org.projectlombok:lombok:1.18.46'
     annotationProcessor 'org.projectlombok:lombok:1.18.46'
