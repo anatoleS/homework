@@ -29,4 +29,9 @@ public class AtmImpl implements Atm {
     public BigDecimal getBalance() {
         return balanceProvider.getTotalBalance();
     }
+
+    @Override
+    public Map<Nominal, Integer> getState() {
+        return balanceProvider.getState();
+    }
 }

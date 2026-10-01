@@ -56,4 +56,20 @@ class AtmImplTest {
         assertEquals(new BigDecimal("1000"), balance);
         verify(provider).getTotalBalance();
     }
+
+    @Test
+    void shouldGetState() {
+        CashAcceptor acceptor = mock(CashAcceptor.class);
+        CashDispenser dispenser = mock(CashDispenser.class);
+        BalanceProvider provider = mock(BalanceProvider.class);
+        
+        Map<Nominal, Integer> state = Map.of(Nominal.HUNDRED, 5, Nominal.FIVE_HUNDRED, 2);
+        when(provider.getState()).thenReturn(state);
+        
+        Atm atm = new AtmImpl(acceptor, dispenser, provider);
+        Map<Nominal, Integer> result = atm.getState();
+        
+        assertEquals(state, result);
+        verify(provider).getState();
+    }
 }

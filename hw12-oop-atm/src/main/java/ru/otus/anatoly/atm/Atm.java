@@ -12,4 +12,5 @@ public interface Atm {
     void accept(Nominal nominal, int count);
     Optional<Map<Nominal, Integer>> withdraw(BigDecimal amount);
     BigDecimal getBalance();
+    Map<Nominal, Integer> getState();
 }
