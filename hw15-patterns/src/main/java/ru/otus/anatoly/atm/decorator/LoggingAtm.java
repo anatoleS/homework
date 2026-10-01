@@ -1,5 +1,6 @@
 package ru.otus.anatoly.atm.decorator;
 
+import lombok.extern.slf4j.Slf4j;
 import ru.otus.anatoly.atm.Atm;
 import ru.otus.anatoly.atm.model.Nominal;
 
@@ -7,6 +8,7 @@ import java.math.BigDecimal;
 import java.util.Map;
 import java.util.Optional;
 
+@Slf4j
 public class LoggingAtm extends AtmDecoratorBase {
 
     public LoggingAtm(Atm component) {
@@ -15,24 +17,33 @@ public class LoggingAtm extends AtmDecoratorBase {
 
     @Override
     public void accept(Nominal nominal, int count) {
-        // Для демо, логирование в консоль, здесь и далее
-        System.out.println("[LoggingAtm] accept nominal=" + nominal + " count=" + count);
-        super.accept(nominal, count);
-        System.out.println("[LoggingAtm] new balance=" + getBalance());
+        log.info("accept nominal={} count={}", nominal, count);
+        try {
+            super.accept(nominal, count);
+            log.info("new balance={}", getBalance());
+        } catch (Exception e) {
+            log.error("accept failed nominal={} count={}", nominal, count, e);
+            throw e;
+        }
     }
 
     @Override
     public Optional<Map<Nominal, Integer>> withdraw(BigDecimal amount) {
-        System.out.println("[LoggingAtm] withdraw amount=" + amount + " balance before=" + getBalance());
-        Optional<Map<Nominal, Integer>> result = super.withdraw(amount);
-        System.out.println("[LoggingAtm] withdraw result=" + result + " balance after=" + getBalance());
-        return result;
+        log.info("withdraw amount={} balance before={}", amount, getBalance());
+        try {
+            Optional<Map<Nominal, Integer>> result = super.withdraw(amount);
+            log.info("withdraw result={} balance after={}", result, getBalance());
+            return result;
+        } catch (Exception e) {
+            log.error("withdraw failed amount={}", amount, e);
+            throw e;
+        }
     }
 
     @Override
     public BigDecimal getBalance() {
         BigDecimal balance = super.getBalance();
-        System.out.println("[LoggingAtm] getBalance=" + balance);
+        log.debug("getBalance={}", balance);
         return balance;
     }
 }
