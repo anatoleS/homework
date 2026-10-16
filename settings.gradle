@@ -1,2 +1,3 @@
 rootProject.name = 'homework'
 include 'hw21-jpql'
+include 'hw22-cache'
