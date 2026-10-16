@@ -18,7 +18,7 @@ public class DbServiceDemo {
 
     public static final String HIBERNATE_CFG_FILE = "hibernate.cfg.xml";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         var configuration = new Configuration().configure(HIBERNATE_CFG_FILE);
 
         var dbUrl = configuration.getProperty("hibernate.connection.url");
@@ -37,10 +37,28 @@ public class DbServiceDemo {
         dbServiceClient.saveClient(new Client("dbServiceFirst"));
 
         var clientSecond = dbServiceClient.saveClient(new Client("dbServiceSecond"));
+        log.info("=== first get -> cache miss expected ===");
         var clientSecondSelected = dbServiceClient
                 .getClient(clientSecond.getId())
                 .orElseThrow(() -> new RuntimeException("Client not found, id:" + clientSecond.getId()));
         log.info("clientSecondSelected:{}", clientSecondSelected);
+
+        log.info("=== second get -> cache hit expected ===");
+        var clientSecondSelected2 = dbServiceClient
+                .getClient(clientSecond.getId())
+                .orElseThrow(() -> new RuntimeException("Client not found"));
+        log.info("clientSecondSelected2:{}", clientSecondSelected2);
+
+        log.info("=== force GC to allow WeakHashMap eviction ===");
+        System.gc();
+        Thread.sleep(200);
+
+        log.info("=== third get -> may be cache miss after eviction ===");
+        var clientSecondSelected3 = dbServiceClient
+                .getClient(clientSecond.getId())
+                .orElseThrow(() -> new RuntimeException("Client not found"));
+        log.info("clientSecondSelected3:{}", clientSecondSelected3);
+
         ///
         dbServiceClient.saveClient(new Client(clientSecondSelected.getId(), "dbServiceSecondUpdated"));
         var clientUpdated = dbServiceClient
