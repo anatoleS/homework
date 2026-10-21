@@ -27,7 +27,7 @@ public class AuthorizationFilter implements Filter {
 
         HttpSession session = request.getSession(false);
 
-        if (session == null) {
+        if (session == null || session.getAttribute("user") == null) {
             response.sendRedirect("/login");
             return;
         }
