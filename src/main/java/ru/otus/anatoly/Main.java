@@ -1,7 +1,7 @@
 package ru.otus.anatoly;
 
 public class Main {
-    static void main(String[] args) throws Exception {
-        ru.otus.webserver.MainWebServer.main(args);
+    public static void main(String[] args) {
+        System.out.println("Homework root project");
     }
 }
