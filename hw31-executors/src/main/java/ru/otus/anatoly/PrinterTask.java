@@ -32,10 +32,13 @@ public class PrinterTask implements Runnable {
         try {
             while (true) {
                 syncManager.awaitTurn(id);
-                System.out.println("Поток " + id + ": " + number);
-                Thread.sleep(100 + random.nextInt(401));
-                updateNumber();
-                syncManager.nextTurn();
+                try {
+                    System.out.println("Поток " + id + ": " + number);
+                    Thread.sleep(100 + random.nextInt(401));
+                    updateNumber();
+                } finally {
+                    syncManager.nextTurn();
+                }
             }
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
