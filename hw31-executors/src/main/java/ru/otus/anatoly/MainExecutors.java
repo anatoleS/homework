@@ -9,5 +9,9 @@ public class MainExecutors {
         SyncManager syncManager = new SyncManager();
         executor.submit(new PrinterTask(1, syncManager));
         executor.submit(new PrinterTask(2, syncManager));
+
+        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+            executor.shutdownNow();
+        }));
     }
 }
