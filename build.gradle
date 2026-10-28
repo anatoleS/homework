@@ -10,7 +10,7 @@ java {
 }
 
 application {
-    mainClass = 'ru.otus.anatoly.MainExecutors'
+    mainClass = 'ru.otus.Main'
 }
 
 group = 'ru.otus.anatoly'
@@ -21,7 +21,7 @@ repositories {
 }
 
 dependencies {
-    implementation project(':hw31-executors')
+    implementation project(':hw32-concurrentCollections')
     testImplementation platform("org.junit:junit-bom:6.1.3")
     testImplementation 'org.junit.jupiter:junit-jupiter:6.1.3'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher:6.1.3'
