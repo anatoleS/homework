@@ -10,8 +10,7 @@ import ru.otus.numbers.NumbersServiceGrpc;
 import ru.otus.numbers.Request;
 
 import java.util.Arrays;
-import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.TimeUnit;
 
 public class ClientMain {
     private static final Logger log = LoggerFactory.getLogger(ClientMain.class);
@@ -38,33 +37,31 @@ public class ClientMain {
 
         NumbersServiceGrpc.NumbersServiceStub stub = NumbersServiceGrpc.newStub(channel);
 
-        AtomicInteger currentValue = new AtomicInteger(0);
-        AtomicInteger lastServerValue = new AtomicInteger(0);
-        AtomicBoolean serverValueUsed = new AtomicBoolean(true);
-
-        StreamObserver<Number> responseObserver = new NumbersClientObserver(lastServerValue, serverValueUsed);
+        NumbersClientObserver observer = new NumbersClientObserver();
 
         Request request = Request.newBuilder()
                 .setFirstValue(firstValue)
                 .setLastValue(lastValue)
                 .build();
 
-        stub.generateNumbers(request, responseObserver);
+        stub.generateNumbers(request, observer);
 
+        int currentValue = 0;
         for (int i = 0; i <= 50; i++) {
             Thread.sleep(1000);
-            int cur = currentValue.get();
-            if (!serverValueUsed.get()) {
-                cur = cur + lastServerValue.get() + 1;
-                serverValueUsed.set(true);
+            Integer newServer = observer.takeIfNew();
+            if (newServer != null) {
+                currentValue = currentValue + newServer + 1;
             } else {
-                cur = cur + 1;
+                currentValue = currentValue + 1;
             }
-            currentValue.set(cur);
-            log.info("currentValue:{}", cur);
-            System.out.println(java.time.LocalTime.now() + " currentValue:" + cur);
+            log.info("currentValue:{}", currentValue);
+            System.out.println(java.time.LocalTime.now() + " currentValue:" + currentValue);
         }
 
         channel.shutdown();
+        if (!channel.awaitTermination(5, TimeUnit.SECONDS)) {
+            channel.shutdownNow();
+        }
     }
 }
