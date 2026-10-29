@@ -1,0 +1,494 @@
+22:09:24.769 [main] INFO  ru.otus.numbers.client.ClientMain - numbers Client is starting...
+22:09:25.146 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:1
+22:09:25.911 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:2
+22:09:26.911 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:3
+22:09:27.144 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:2
+22:09:27.911 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:6
+22:09:28.911 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:7
+22:09:29.144 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:3
+22:09:29.912 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:11
+22:09:30.912 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:12
+22:09:31.144 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:4
+22:09:31.912 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:17
+22:09:32.913 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:18
+22:09:33.144 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:5
+22:09:33.913 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:24
+22:09:34.913 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:25
+22:09:35.145 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:6
+22:09:35.914 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:32
+22:09:36.914 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:33
+22:09:37.145 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:7
+22:09:37.914 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:41
+22:09:38.914 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:42
+22:09:39.145 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:8
+22:09:39.915 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:51
+22:09:40.915 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:52
+22:09:41.146 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:9
+22:09:41.915 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:62
+22:09:42.916 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:63
+22:09:43.146 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:10
+22:09:43.916 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:74
+22:09:44.916 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:75
+22:09:45.146 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:11
+22:09:45.917 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:87
+22:09:46.917 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:88
+22:09:47.146 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:12
+22:09:47.917 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:101
+22:09:48.917 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:102
+22:09:49.147 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:13
+22:09:49.918 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:116
+22:09:50.918 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:117
+22:09:51.147 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:14
+22:09:51.918 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:132
+22:09:52.919 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:133
+22:09:53.148 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:15
+22:09:53.919 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:149
+22:09:54.919 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:150
+22:09:55.148 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:16
+22:09:55.920 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:167
+22:09:56.920 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:168
+22:09:57.148 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:17
+22:09:57.920 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:186
+22:09:58.920 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:187
+22:09:59.148 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:18
+22:09:59.921 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:206
+22:10:00.921 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:207
+22:10:01.148 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:19
+22:10:01.921 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:227
+22:10:02.922 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:228
+22:10:03.149 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:20
+22:10:03.922 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:249
+22:10:04.922 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:250
+22:10:05.149 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:21
+22:10:05.922 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:272
+22:10:06.923 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:273
+22:10:07.149 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:22
+22:10:07.923 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:296
+22:10:08.923 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:297
+22:10:09.150 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:23
+22:10:09.924 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:321
+22:10:10.924 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:322
+22:10:11.150 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:24
+22:10:11.924 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:347
+22:10:12.925 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:348
+22:10:13.150 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:25
+22:10:13.925 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:374
+22:10:14.925 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:375
+22:10:15.151 [grpc-default-executor-0] INFO  io.grpc.stub.StreamObserver - new value:26
+22:10:15.925 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:402
+12:05:14.906 [main] INFO  ru.otus.numbers.client.ClientMain - numbers Client is starting...
+12:05:15.287 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:1
+12:05:16.050 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:2
+12:05:17.051 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:3
+12:05:17.286 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:2
+12:05:18.051 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:6
+12:05:19.052 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:7
+12:05:19.286 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:3
+12:05:20.052 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:11
+12:05:21.052 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:12
+12:05:21.287 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:4
+12:05:22.053 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:17
+12:05:23.053 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:18
+12:05:23.287 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:5
+12:05:24.053 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:24
+12:05:25.054 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:25
+12:05:25.287 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:6
+12:05:26.054 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:32
+12:05:27.054 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:33
+12:05:27.288 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:7
+12:05:28.055 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:41
+12:05:29.055 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:42
+12:05:29.288 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:8
+12:05:30.056 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:51
+12:05:31.056 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:52
+12:05:31.289 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:9
+12:05:32.056 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:62
+12:05:33.057 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:63
+12:05:33.289 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:10
+12:05:34.057 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:74
+12:05:35.058 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:75
+12:05:35.289 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:11
+12:05:36.058 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:87
+12:05:37.058 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:88
+12:05:37.290 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:12
+12:05:38.059 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:101
+12:05:39.059 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:102
+12:05:39.290 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:13
+12:05:40.060 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:116
+12:05:41.060 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:117
+12:05:41.291 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:14
+12:05:42.060 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:132
+12:05:43.061 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:133
+12:05:43.291 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:15
+12:05:44.061 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:149
+12:05:45.061 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:150
+12:05:45.292 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:16
+12:05:46.062 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:167
+12:05:47.062 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:168
+12:05:47.292 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:17
+12:05:48.062 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:186
+12:05:49.063 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:187
+12:05:49.292 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:18
+12:05:50.063 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:206
+12:05:51.063 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:207
+12:05:51.293 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:19
+12:05:52.064 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:227
+12:05:53.064 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:228
+12:05:53.293 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:20
+12:05:54.065 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:249
+12:05:55.065 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:250
+12:05:55.296 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:21
+12:05:56.065 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:272
+12:05:57.066 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:273
+12:05:57.295 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:22
+12:05:58.066 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:296
+12:05:59.066 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:297
+12:05:59.295 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:23
+12:06:00.067 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:321
+12:06:01.067 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:322
+12:06:01.295 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:24
+12:06:02.068 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:347
+12:06:03.068 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:348
+12:06:03.297 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:25
+12:06:04.068 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:374
+12:06:05.069 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:375
+12:06:05.296 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:26
+12:06:06.069 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:402
+12:08:11.968 [main] INFO  ru.otus.numbers.client.ClientMain - numbers Client is starting...
+12:08:12.228 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:1
+12:08:13.055 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:2
+12:08:14.056 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:3
+12:08:14.225 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:2
+12:08:15.056 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:6
+12:08:16.056 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:7
+12:08:16.226 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:3
+12:08:17.057 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:11
+12:08:18.057 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:12
+12:08:18.226 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:4
+12:08:19.057 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:17
+12:08:20.058 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:18
+12:08:20.227 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:5
+12:08:21.058 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:24
+12:08:22.058 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:25
+12:08:22.228 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:6
+12:08:23.058 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:32
+12:08:24.059 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:33
+12:08:24.229 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:7
+12:08:25.059 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:41
+12:08:26.060 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:42
+12:08:26.229 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:8
+12:08:27.060 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:51
+12:08:28.061 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:52
+12:08:28.230 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:9
+12:08:29.062 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:62
+12:08:30.062 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:63
+12:08:30.230 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:10
+12:08:31.063 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:74
+12:08:32.063 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:75
+12:08:32.230 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:11
+12:08:33.063 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:87
+12:08:34.064 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:88
+12:08:34.231 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:12
+12:08:35.064 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:101
+12:08:36.064 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:102
+12:08:36.231 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:13
+12:08:37.065 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:116
+12:08:38.065 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:117
+12:08:38.232 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:14
+12:08:39.066 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:132
+12:08:40.066 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:133
+12:08:40.232 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:15
+12:08:41.067 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:149
+12:08:42.067 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:150
+12:08:42.233 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:16
+12:08:43.068 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:167
+12:08:44.068 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:168
+12:08:44.233 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:17
+12:08:45.068 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:186
+12:08:46.069 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:187
+12:08:46.233 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:18
+12:08:47.069 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:206
+12:08:48.069 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:207
+12:08:48.234 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:19
+12:08:49.070 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:227
+12:08:50.070 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:228
+12:08:50.234 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:20
+12:08:51.070 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:249
+12:08:52.071 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:250
+12:08:52.234 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:21
+12:08:53.071 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:272
+12:08:54.071 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:273
+12:08:54.235 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:22
+12:08:55.072 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:296
+12:08:56.072 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:297
+12:08:56.235 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:23
+12:08:57.072 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:321
+12:08:58.073 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:322
+12:08:58.235 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:24
+12:08:59.073 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:347
+12:09:00.073 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:348
+12:09:00.236 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:25
+12:09:01.074 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:374
+12:09:02.074 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:375
+12:09:02.236 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:26
+12:09:03.074 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:402
+12:11:51.639 [main] INFO  ru.otus.numbers.client.ClientMain - numbers Client is starting...
+12:11:51.876 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:1
+12:11:52.718 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:2
+12:11:53.719 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:3
+12:11:53.875 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:2
+12:11:54.719 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:6
+12:13:43.037 [main] INFO  ru.otus.numbers.client.ClientMain - numbers Client is starting...
+12:13:43.231 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:1
+12:13:44.127 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:2
+12:13:45.127 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:3
+12:13:45.230 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:2
+12:13:46.128 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:6
+12:13:47.129 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:7
+12:13:47.230 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:3
+12:13:48.129 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:11
+12:13:49.129 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:12
+12:13:49.231 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:4
+12:13:50.130 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:17
+12:13:51.130 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:18
+12:13:51.231 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:5
+12:13:52.130 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:24
+12:13:53.131 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:25
+12:13:53.231 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:6
+12:13:54.131 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:32
+12:13:55.131 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:33
+12:13:55.232 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:7
+12:13:56.132 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:41
+12:13:57.132 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:42
+12:13:57.232 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:8
+12:13:58.132 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:51
+12:13:59.133 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:52
+12:13:59.233 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:9
+12:14:00.133 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:62
+12:14:01.133 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:63
+12:14:01.233 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:10
+12:14:02.134 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:74
+12:14:03.134 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:75
+12:14:03.234 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:11
+12:14:04.134 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:87
+12:14:05.135 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:88
+12:14:05.234 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:12
+12:14:06.135 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:101
+12:14:07.135 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:102
+12:14:07.235 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:13
+12:14:08.136 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:116
+12:14:09.136 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:117
+12:14:09.235 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:14
+12:14:10.136 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:132
+12:14:11.137 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:133
+12:14:11.235 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:15
+12:14:12.137 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:149
+12:14:13.137 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:150
+12:14:13.236 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:16
+12:14:14.138 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:167
+12:14:15.138 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:168
+12:14:15.236 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:17
+12:14:16.138 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:186
+12:14:17.139 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:187
+12:14:17.237 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:18
+12:14:18.139 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:206
+12:14:19.139 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:207
+12:14:19.237 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:19
+12:14:20.140 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:227
+12:14:21.140 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:228
+12:14:21.238 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:20
+12:14:22.140 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:249
+12:14:23.141 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:250
+12:14:23.238 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:21
+12:14:24.141 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:272
+12:14:25.141 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:273
+12:14:25.238 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:22
+12:14:26.142 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:296
+12:14:27.142 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:297
+12:14:27.240 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:23
+12:14:28.142 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:321
+12:14:29.143 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:322
+12:14:29.240 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:24
+12:14:56.642 [main] INFO  ru.otus.numbers.client.ClientMain - numbers Client is starting...
+12:14:56.837 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:1
+12:14:57.733 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:2
+12:14:58.734 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:3
+12:14:58.835 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:2
+12:14:59.734 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:6
+12:15:00.734 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:7
+12:15:00.836 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:3
+12:15:01.735 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:11
+12:15:02.735 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:12
+12:15:02.836 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:4
+12:15:03.736 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:17
+12:15:04.736 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:18
+12:15:04.836 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:5
+12:15:05.736 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:24
+12:15:06.737 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:25
+12:15:06.837 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:6
+12:15:07.737 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:32
+12:15:08.738 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:33
+12:15:08.837 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:7
+12:15:09.738 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:41
+12:15:10.738 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:42
+12:15:10.838 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:8
+12:15:11.739 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:51
+12:15:12.739 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:52
+12:15:12.838 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:9
+12:15:13.739 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:62
+12:15:14.740 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:63
+12:15:14.838 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:10
+12:15:15.740 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:74
+12:19:19.783 [main] INFO  ru.otus.numbers.client.ClientMain - numbers Client is starting...
+12:19:19.975 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:1
+12:19:20.872 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:2
+12:19:21.873 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:3
+12:19:21.972 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:2
+12:19:22.873 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:6
+12:19:23.873 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:7
+12:19:23.972 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:3
+12:19:24.874 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:11
+12:19:25.874 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:12
+12:19:25.973 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:4
+12:19:26.874 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:17
+12:19:27.875 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:18
+12:19:27.973 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:5
+12:19:28.875 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:24
+12:19:29.876 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:25
+12:19:29.974 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:6
+12:19:30.876 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:32
+12:19:31.877 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:33
+12:19:31.975 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:7
+12:19:32.877 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:41
+12:19:33.877 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:42
+12:19:33.975 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:8
+12:19:34.878 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:51
+12:19:35.878 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:52
+12:20:47.220 [main] INFO  ru.otus.numbers.client.ClientMain - numbers Client is starting...
+12:20:47.413 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:1
+12:20:48.310 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:2
+12:20:49.311 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:3
+12:20:49.410 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:2
+12:20:50.311 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:6
+12:20:51.311 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:7
+12:20:51.411 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:3
+12:20:52.312 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:11
+12:20:53.312 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:12
+12:20:53.411 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:4
+12:20:54.312 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:17
+12:20:55.313 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:18
+12:20:55.411 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:5
+12:35:44.714 [main] INFO  ru.otus.numbers.client.ClientMain - numbers Client is starting...
+12:35:44.715 [main] INFO  ru.otus.numbers.client.ClientMain - Using custom range 10 13
+12:35:44.908 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:11
+12:35:45.802 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:12
+12:35:46.803 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:13
+12:35:46.907 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:12
+12:35:47.803 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:26
+12:35:48.804 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:27
+12:35:48.907 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:13
+12:35:49.804 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:41
+12:35:50.804 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:42
+12:35:50.909 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - Stream completed
+12:35:51.805 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:43
+12:35:52.805 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:44
+12:35:53.805 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:45
+12:35:54.806 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:46
+12:35:55.806 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:47
+12:35:56.806 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:48
+12:35:57.807 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:49
+12:35:58.807 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:50
+12:35:59.807 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:51
+12:36:00.808 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:52
+12:36:01.808 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:53
+12:36:02.808 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:54
+12:36:03.809 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:55
+12:36:04.809 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:56
+12:36:05.809 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:57
+12:36:06.810 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:58
+12:36:07.810 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:59
+12:36:08.810 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:60
+12:36:09.810 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:61
+12:36:10.811 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:62
+12:36:11.811 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:63
+12:36:12.811 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:64
+12:36:13.812 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:65
+12:36:14.812 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:66
+12:36:15.813 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:67
+12:36:16.813 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:68
+12:36:17.813 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:69
+12:36:18.813 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:70
+12:36:19.814 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:71
+12:36:20.814 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:72
+12:36:21.814 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:73
+12:36:22.815 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:74
+12:36:23.815 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:75
+12:36:24.815 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:76
+12:36:25.816 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:77
+12:36:26.816 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:78
+12:36:27.816 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:79
+12:36:28.817 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:80
+12:36:29.817 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:81
+12:36:30.817 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:82
+12:36:31.818 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:83
+12:36:32.818 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:84
+12:36:33.818 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:85
+12:36:34.819 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:86
+12:36:35.819 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:87
+12:39:03.248 [main] INFO  ru.otus.numbers.client.ClientMain - numbers Client is starting...
+12:39:03.249 [main] INFO  ru.otus.numbers.client.ClientMain - Using custom range 10 13
+12:39:03.515 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:11
+12:39:04.340 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:12
+12:39:05.341 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:13
+12:39:05.514 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:12
+12:39:06.342 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:26
+12:39:07.342 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:27
+12:39:07.514 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:13
+12:39:08.343 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:41
+12:39:09.343 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:42
+12:39:09.516 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - Stream completed
+12:39:10.343 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:43
+12:39:11.343 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:44
+12:39:12.344 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:45
+12:39:13.344 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:46
+12:39:14.345 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:47
+12:39:15.345 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:48
+12:39:16.345 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:49
+12:39:17.346 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:50
+12:39:18.346 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:51
+12:39:19.346 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:52
+12:39:20.347 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:53
+12:39:21.347 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:54
+12:39:22.347 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:55
+12:39:23.348 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:56
+12:39:24.348 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:57
+12:39:25.348 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:58
+12:39:26.349 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:59
+12:39:27.349 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:60
+12:39:28.349 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:61
+12:39:29.350 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:62
+12:39:30.350 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:63
+12:39:31.350 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:64
+12:39:32.351 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:65
+12:39:33.351 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:66
+12:39:34.351 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:67
+12:39:35.352 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:68
+12:39:36.352 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:69
+12:39:37.352 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:70
+12:39:38.353 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:71
+12:39:39.353 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:72
+12:39:40.353 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:73
+12:39:41.353 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:74
+12:39:42.354 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:75
+12:39:43.354 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:76
+12:39:44.354 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:77
+12:39:45.355 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:78
+12:39:46.355 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:79
+12:39:47.355 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:80
+12:39:48.356 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:81
+12:39:49.356 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:82
+12:39:50.356 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:83
+12:39:51.357 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:84
+12:39:52.357 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:85
+12:39:53.357 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:86
+12:39:54.358 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:87
