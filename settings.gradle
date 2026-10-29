@@ -1,2 +1,2 @@
 rootProject.name = 'homework'
-include 'hw32-concurrentCollections'
+include 'hw34-multiprocessor'

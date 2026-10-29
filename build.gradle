@@ -21,7 +21,7 @@ repositories {
 }
 
 dependencies {
-    implementation project(':hw32-concurrentCollections')
+    implementation project(':hw34-multiprocessor')
     testImplementation platform("org.junit:junit-bom:6.1.3")
     testImplementation 'org.junit.jupiter:junit-jupiter:6.1.3'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher:6.1.3'
