@@ -10,7 +10,7 @@ java {
 }
 
 application {
-    mainClass = 'ru.otus.anatoly.MainExecutors'
+    mainClass = 'ru.otus.Main'
 }
 
 group = 'ru.otus.anatoly'

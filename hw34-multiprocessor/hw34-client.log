@@ -492,3 +492,60 @@
 12:39:52.357 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:85
 12:39:53.357 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:86
 12:39:54.358 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:87
+23:06:38.744 [main] INFO  ru.otus.numbers.client.ClientMain - numbers Client is starting...
+23:06:38.745 [main] INFO  ru.otus.numbers.client.ClientMain - Using custom range 10 13
+23:06:39.165 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:11
+23:06:39.901 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:12
+23:06:40.902 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:13
+23:06:41.163 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:12
+23:06:41.902 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:26
+23:06:42.902 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:27
+23:06:43.164 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - new value:13
+23:06:43.903 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:41
+23:06:44.903 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:42
+23:06:45.166 [grpc-default-executor-0] INFO  r.o.n.client.NumbersClientObserver - Stream completed
+23:06:45.903 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:43
+23:06:46.904 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:44
+23:06:47.904 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:45
+23:06:48.905 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:46
+23:06:49.905 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:47
+23:06:50.905 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:48
+23:06:51.906 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:49
+23:06:52.906 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:50
+23:06:53.906 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:51
+23:06:54.907 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:52
+23:06:55.907 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:53
+23:06:56.907 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:54
+23:06:57.908 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:55
+23:06:58.908 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:56
+23:06:59.908 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:57
+23:07:00.909 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:58
+23:07:01.909 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:59
+23:07:02.909 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:60
+23:07:03.910 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:61
+23:07:04.910 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:62
+23:07:05.910 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:63
+23:07:06.911 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:64
+23:07:07.911 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:65
+23:07:08.911 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:66
+23:07:09.912 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:67
+23:07:10.912 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:68
+23:07:11.912 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:69
+23:07:12.913 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:70
+23:07:13.913 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:71
+23:07:14.913 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:72
+23:07:15.914 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:73
+23:07:16.914 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:74
+23:07:17.915 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:75
+23:07:18.915 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:76
+23:07:19.915 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:77
+23:07:20.916 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:78
+23:07:21.916 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:79
+23:07:22.916 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:80
+23:07:23.917 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:81
+23:07:24.917 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:82
+23:07:25.917 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:83
+23:07:26.918 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:84
+23:07:27.918 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:85
+23:07:28.918 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:86
+23:07:29.919 [main] INFO  ru.otus.numbers.client.ClientMain - currentValue:87
