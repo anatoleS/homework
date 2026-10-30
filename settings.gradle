@@ -1,2 +1,3 @@
 rootProject.name = 'homework'
-include 'hw38-spring-webflux'
+include 'hw38-spring-webflux-server'
+include 'hw38-spring-webflux-client'
