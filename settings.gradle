@@ -1,2 +1,3 @@
 rootProject.name = 'homework'
-include 'hw34-multiprocessor'
+include 'hw38-spring-webflux-server'
+include 'hw38-spring-webflux-client'

@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS message (
+    id BIGSERIAL PRIMARY KEY,
+    room_id VARCHAR(255) NOT NULL,
+    msg_text TEXT NOT NULL
+);

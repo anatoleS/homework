@@ -1,0 +1,13 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5430/demoDB
+    username: usr
+    password: pwd
+  flyway:
+    url: jdbc:postgresql://localhost:5430/demoDB
+    user: usr
+    password: pwd
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+server:
+  port: 8081
